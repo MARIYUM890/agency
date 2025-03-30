@@ -1,0 +1,88 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-size: xxx-large;
+}
+
+
+.item0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#welcome{
+    color: rgb(255, 106, 0);
+    font-style: italic;
+}
+
+.one {
+    font-family: 'Times new roman', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    padding: 1%;
+    
+}
+.one > a {
+    text-decoration: none;
+    color: rgb(3, 119, 252);
+    text-align: center;
+    
+
+}
+a:hover{
+    color: rgb(246, 30, 1);
+    font-size: x-large;
+}
+
+#flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-basis: 2%;
+    background-color: aliceblue;
+    margin-top: 2%;
+}
+#body-section{
+    display: flex;
+    border: 10px solid greenyellow;
+    border-top-style: dotted ;
+    border-top-color: blue;
+    border-right-style: dotted;
+    border-right-color:blue ;
+    padding-left: 10%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+    
+}
+.items{
+    display: flex; 
+    flex-basis: 50%;
+    justify-content: center;
+    border: 6px double black;
+    margin-right:50px ;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+
+}
+.items > h3{
+    text-align: center;
+}
+div> p{
+    margin-left: 5%;
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 4%;
+    text-align: center;
+    background-color: aliceblue;
+}
